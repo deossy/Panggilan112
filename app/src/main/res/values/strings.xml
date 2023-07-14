@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Emergency Call 112</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="title_activity_main">Emergency Call 112</string>
+
+    <string name="permdesc_useSip">Place SIP calls, send SIP messages and control SIP communications</string>
+    <string name="permlab_useSip">Use sip</string>
+    <string name="permlab_configureSip">Use sip</string>
+    <string name="permdesc_configureSip">Place SIP calls, send SIP messages and control SIP communications</string>
+    <string name="select">Tujuan Layanan</string>
+
+    //Headings
+    <string name="heading_one">Quick &amp; Easy Payments</string>
+    <string name="heading_two">Instant Notifications</string>
+    <string name="heading_three">Cashless Payment</string>
+    <string name="heading_fourth">Pay Anywhere</string>
+
+    //Description
+    <string name="desc_one">Segera laporkan panggilan darurat Anda\nuntuk penanganan lebih lanjut</string>
+    <string name="desc_two">Kami melayani kejadian darurat di 24 Jam.\nKapanpun dan dimanapun segera laporkan.</string>
+    <string name="desc_three">Untuk memudahkan petugas kirimkan\nlokasi Anda dikejadian darurat.</string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="mulai_btn">Mulai</string>
+    <string name="color">#B90E13</string>
+
+</resources>

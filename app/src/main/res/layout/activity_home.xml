@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    tools:context=".activity.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F5F5F5"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/FloatingActionButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_account"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/nama_user"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans"
+                    android:layout_marginStart="5dp"
+                    android:text="Levi Ackerman"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Status"
+                    android:layout_width="99dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="User"
+                    android:textColor="#000000"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="-95dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/icon_notif"
+                    android:layout_width="21dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_notification"/>
+
+                <ImageView
+                    android:id="@+id/icon_menu"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:src="@drawable/ic_menu"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/slide"
+        android:layout_width="500dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/slide_cpr" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-200dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="right|center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/select" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/unselect" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/unselect" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slideone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_gravity="left|center"
+        android:text="Cara Memberi Pertolongan CPR"
+        android:layout_marginStart="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slideone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left|center"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Letakkan mulut Anda ke mulut atau hidung pasien. Jika memberikan napas bantuan dari mulut ke mulut, jepit hidung korban menggunakan tangan..."
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/slide"-->
+<!--        android:layout_width="500dp"-->
+<!--        android:layout_height="220dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:src="@drawable/slide_cpr" />-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="167dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/slideone"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="-130dp"-->
+<!--        android:fontFamily="@font/poppins_bold"-->
+<!--        android:layout_gravity="left|center"-->
+<!--        android:text="Cara Memberi Pertolongan CPR"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/slideone"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_gravity="left|center"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:fontFamily="@font/poppins_regular"-->
+<!--        android:text="Letakkan mulut Anda ke mulut atau hidung pasien. Jika memberikan napas bantuan dari mulut ke mulut, jepit hidung korban menggunakan tangan..."-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="12sp" />-->
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/slideone"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Apakah Kamu Darurat?"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/slideone"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/dm_sans"
+            android:text="Segera buat laporan bila anda dalam keadaan Darurat, tekan tombol merah dibawah ini :"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <android.widget.Button
+        android:id="@+id/btn_emergency"
+        android:layout_width="176dp"
+        android:layout_height="39dp"
+        android:fontFamily="@font/poppins_bolditalic"
+        android:drawableLeft="@drawable/ic_baseline_warning_24"
+        android:text="EMERGENCY"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttonshape"
+        android:layout_gravity="left|center"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/slideone"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/dm_sansbold"
+            android:text="Menu Pertolongan"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/slideone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="45dp"
+            android:fontFamily="@font/dm_sans"
+            android:text="Lihat Semua"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btn_polisi"
+                    android:layout_width="62dp"
+                    android:layout_height="61dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/btn_background"
+                    android:src="@drawable/icon_polisi"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/slideone"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/dm_sansbold"
+                    android:gravity="center"
+                    android:text="POLISI"
+                    android:textAlignment="center"
+                    android:textColor="#C0272B"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btn_damkar"
+                    android:layout_width="62dp"
+                    android:layout_height="61dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/btn_background"
+                    android:src="@drawable/icon_damkar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/slideone"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/dm_sansbold"
+                    android:gravity="center"
+                    android:text="DAMKAR"
+                    android:textAlignment="center"
+                    android:textColor="#C0272B"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btn_psc"
+                    android:layout_width="62dp"
+                    android:layout_height="61dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/btn_background"
+                    android:src="@drawable/icon_psc" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/slideone"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/dm_sansbold"
+                    android:gravity="center"
+                    android:text="PSC"
+                    android:textAlignment="center"
+                    android:textColor="#C0272B"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btn_bpbd"
+                    android:layout_width="62dp"
+                    android:layout_height="61dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/btn_background"
+                    android:src="@drawable/icon_bpbd" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/slideone"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/dm_sansbold"
+                    android:gravity="center"
+                    android:text="BPBD"
+                    android:textAlignment="center"
+                    android:textColor="#C0272B"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btn_spp"
+                    android:layout_width="62dp"
+                    android:layout_height="61dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/btn_background"
+                    android:src="@drawable/icon_polpp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/slideone"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/dm_sansbold"
+                    android:gravity="center"
+                    android:text="SATPOL PP"
+                    android:textAlignment="center"
+                    android:textColor="#C0272B"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#C6C6C6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/slideone"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/dm_sans"
+            android:gravity="center"
+            android:text="EMERGENCY Call 112 \n Layanan Cepat Melindungi Masyarakat"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>
